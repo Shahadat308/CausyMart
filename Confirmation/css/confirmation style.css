@@ -1,0 +1,258 @@
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+
+/*--Navbar CSS start*/
+.nav-item a {
+    color: #4b3049;
+    font-size: 16px !important;
+    font-weight: 550 !important;
+}
+
+.nav-item .nav-link:focus,
+.nav-item .nav-link:hover {
+    color: #b08ead !important;
+    transition: ease 0.3s !important;
+    font-weight: 600 !important;
+
+}
+
+
+.dropdown-menu {
+    visibility: hidden;
+    opacity: 0;
+    transition: all .9s;
+}
+
+.dropdown:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    background-color: #b08ead;
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: transparent;
+    color: rgb(0, 0, 0) !important;
+    transition: all 1s;
+}
+
+.navbar-nav .nav-item .active {
+    color: #B08EAD;
+}
+
+
+.dropdown-menu .active {
+    color: black !important;
+    background-color: transparent;
+}
+
+/*--Navbar CSS end*/
+
+/*confirmation start  */
+.confirmation_again {
+    margin-top: 90px;
+}
+
+.Confirmation {
+    background-color: #B08EAD;
+    width: 100%;
+    height: 250px;
+}
+
+/*confirmation end */
+
+/*confirmation list start */
+
+.list h6 {
+    color: #B08EAD;
+}
+
+.table>:not(caption)>*>* {
+    color: #222222;
+}
+
+.table-secondary tbody,
+thead,
+tfoot,
+td,
+tr,
+th {
+    background-color: #e9ecef !important;
+}
+
+.table tbody,
+tr,
+td {
+    border-bottom-style: none !important;
+    border-style: none !important;
+}
+
+.table h5 {
+    color: #4B3049;
+}
+
+
+/*confirmation list end */
+
+/* footer start */
+.card {
+    height: 200px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+    width: 170px;
+}
+
+.collapse a {
+    color: #4a3049;
+}
+
+.collapse a:hover {
+    color: #E4D3DF;
+    opacity: 1;
+    transition: all .5s;
+}
+
+.collapse .nav-link {
+    border: 2px solid transparent;
+}
+
+.d-flex i {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-left: 7px;
+    padding-top: 15px;
+    background-color: #4a3049;
+    color: white;
+}
+
+.d-flex i:hover {
+    opacity: 1;
+    background-color: white;
+    color: #4a3049;
+}
+
+.cs {
+    color: #3e273e;
+}
+
+.fn {
+    color: #795376;
+    font-size: 15px;
+}
+
+.ms {
+    margin-left: 350px;
+    color: #4B3049;
+    font-size: 14px;
+}
+
+/* footer end */
+
+
+/*---footer section start--*/
+/*---footer-inner section start--*/
+.footer-part .container .footer-inner {
+    padding: 130px 0;
+}
+
+.footer-part .footer-menu .logo a {
+    display: inline-block;
+    margin-right: 45px;
+}
+
+.footer-part .footer-menu .active {
+    color: #B08EAD !important;
+}
+
+
+.footer-part .footer-menu .menu-item a {
+    display: inline-block;
+    color: #4B3049;
+    font-size: 16px;
+    padding: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.footer-part .footer-menu .menu-item a:hover {
+    color: #caa7c0;
+    transition: ease-in-out 0.6s;
+}
+
+.footer-part .social-icon {
+    text-align: right;
+}
+
+.footer-part .social-icon a {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #4B3049;
+    line-height: 45px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    margin-left: 3px;
+}
+
+.footer-part .social-icon a:hover {
+    background-color: #caa7c0;
+    transition: all 0.6s;
+}
+
+/*---footer-inner section end--*/
+
+
+/*---footer-copyright section start--*/
+.footer-part .copyright-part {
+    background-color: #F4EDF2;
+    padding: 30px 0px;
+}
+
+.footer-part .copyright-part p {
+    font-family: "Rubik", sans-serif;
+    line-height: 2;
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #795376;
+    font-weight: 500;
+}
+
+.footer-part .copyright-part p a {
+    color: #795376;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-part .copyright-part .link {
+    text-align: right;
+
+}
+
+.footer-part .copyright-part .link a {
+    text-decoration: none;
+    margin-left: 35px;
+    color: #4B3049;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.footer-part .copyright-part .link a:hover {
+    color: #caa7c0;
+    transition: all 0.6s;
+}
+
+/*---footer-copyright section start--*/
+
+/*---footer section end--*/

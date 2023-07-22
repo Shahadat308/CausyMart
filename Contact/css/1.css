@@ -1,0 +1,225 @@
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*--Navbar CSS start*/
+.nav-item a{
+  color: #4b3049;
+  font-size: 16px !important;
+  font-weight: 550 !important;
+}
+
+.nav-item .nav-link:focus,.nav-item .nav-link:hover{
+  color: #b08ead !important;
+  transition: ease 0.3s !important;
+  font-weight: 600 !important;
+ 
+}
+
+
+.dropdown-menu{
+visibility:hidden;
+  opacity:0;
+  transition:all .9s;
+}
+
+.dropdown:hover  .dropdown-menu {
+visibility:visible;
+opacity:1;
+background-color:#b08ead;
+}
+
+.dropdown-item{
+color:white !important;
+}
+
+.dropdown-item:hover, .dropdown-item:focus{
+background-color:transparent;
+color:rgb(0, 0, 0) !important;	
+transition: all 1s;
+}
+
+.navbar-nav .nav-item .active{
+color:#B08EAD !important;
+}
+
+/*--Navbar CSS end*/
+
+
+
+
+
+/* banner section */
+.contant{
+    background-color: #B08EAD;;
+    margin-top: 70px;
+    padding: 170px 0 !important;
+}
+
+
+figcaption h1{
+  font-size: 50px;
+  font-weight: 600;
+} 
+/* banner end */
+/* error start */
+.error{
+    background-color:rgb(226, 226, 226);
+    height:400px;
+}
+.error h3{
+    font-size:20px;
+}
+/* error end */
+/* getintouch start */
+.getintouch h2{
+    font-size: medium;
+    color:rgb(94, 44, 94);
+}
+
+
+.getintouch textarea{
+  resize: none !important;
+}
+
+.getintouch .form-control:focus{
+  box-shadow: none;
+ 
+} 
+
+ .btn-outline-light,.btn-outline-light:hover{
+    color:rgb(167, 91, 167);
+    border-color:rgb(167, 91, 167);
+    transition: all 0.6s;
+    
+}
+
+.getintouch .send-massage button{
+  padding: 20px 30px;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  background-color: #B08EAD;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+
+.getintouch .send-massage button:hover{
+  background-color: #ffffff;
+  color: #B08EAD;
+  border: 1px solid #B08EAD;
+}
+
+/* getintouch end */
+/*---footer section start--*/
+	 /*---footer-inner section start--*/
+   .footer-part .container .footer-inner{
+    padding: 130px 0;
+  }
+
+  .footer-part .footer-menu .logo a{
+    display: inline-block;
+      margin-right: 45px;
+  }
+
+
+  .footer-part .footer-menu .menu-item a{
+      display: inline-block;
+      color: #4B3049;
+      font-size: 16px;
+      padding: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+  }
+
+  .footer-part .footer-menu .active{
+    color: #b08ead !important;
+  }
+
+
+  .footer-part .footer-menu .menu-item a:hover{
+    color: #caa7c0;
+    transition: all 0.6s;
+  }
+
+  .footer-part .social-icon{
+    text-align: right;
+  }
+
+  .footer-part .social-icon a{
+      height: 45px;
+      width: 45px;
+      border-radius: 50%;
+      background-color: #4B3049;
+      line-height: 45px;
+      color: #fff;
+      display: inline-block;
+      text-align: center;
+      margin-left: 3px;
+  }
+
+  .footer-part .social-icon a:hover{
+    background-color: #caa7c0;
+    transition: all 0.6s;
+  }
+
+/*---footer-inner section end--*/
+
+
+/*---footer-copyright section start--*/
+  .footer-part .copyright-part{
+      background-color: #F4EDF2;
+      padding: 30px 0px;
+  }
+
+  .footer-part .copyright-part p{
+      font-family: "Rubik", sans-serif;
+      line-height: 2;
+      font-size: 16px;
+      margin-bottom: 0px;
+      color: #795376;
+      font-weight: 500;
+  }
+  
+  .footer-part .copyright-part p a{
+    color: #795376;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .footer-part .copyright-part .link{
+    text-align: right;
+    
+  }
+
+  .footer-part .copyright-part .link a{
+    text-decoration: none;
+    margin-left: 35px;
+    color: #4B3049;
+    margin-bottom: 0px;
+    font-size: 16px;
+  }
+
+  .footer-part .copyright-part .link a:hover{
+    color: #caa7c0;
+    transition: all 0.6s;
+  }
+
+/*---footer-copyright section start--*/
+
+
+/*---footer section end--*/ 
+
+
+
+
+
+
+
+

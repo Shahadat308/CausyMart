@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pillow Mart Cart List</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <!-- nav section start -->
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm p-3 bg-body fixed-top">
+    <div class="container py-2">
+        <a class="" href="./../Home/Index.html">
+            <img src="IMAGE/logo .png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item px-2">
+                <a class="nav-link" aria-current="page" href="./../Home/Index.html">Home</a>
+                </li>
+                <li class="nav-item px-2">
+                <a class="nav-link" href="./../About/Index.html">About</a>
+                </li>
+                    <li class="nav-item dropdown px-2">
+                        <a class="nav-link dropdown-toggle show " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Product
+                        </a>
+                            <ul class="dropdown-menu show">
+                                <li><a class="dropdown-item" href="./../Product_LIst/index.html">Product List</a></li>
+                                <li><a class="dropdown-item " href="./../Product_Details/index.html">Product Details</a></li>
+                                
+                            </ul>
+                    </li>
+
+                    <li class="nav-item dropdown px-2 ">
+                        <a class="nav-link dropdown-toggle show active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                            <ul class="dropdown-menu show">
+                                <li><a class="dropdown-item" href="./../Login/Index.html">Login</a></li>
+                                <li><a class="dropdown-item" href="./../Checkout/index.html">Product Checkout</a></li>
+                                <li><a class="dropdown-item active" href="./index.html">Shopping Cart</a></li>
+                                <li><a class="dropdown-item" href="./../Confirmation/index.html">Confirmation</a></li>
+                                <li><a class="dropdown-item" href="#">Elements</a></li>
+                            </ul>
+                    </li>
+
+                    <li class="nav-item dropdown px-2 show">
+                        <a class="nav-link dropdown-toggle show" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Blogs
+                        </a>
+                        <ul class="dropdown-menu show">
+                            <li><a class="dropdown-item" href="./../Blog/index.html">Blog</a></li>
+                            <li><a class="dropdown-item" href="./../Single_blog/Index.html">Single Blog</a></li>
+                           
+                        </ul>
+                    </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="./../Contact/index.html">Contact</a>
+                </li>
+            </ul>
+                <form class="" role="search">
+                    
+                    <div class="nav-item dropdown px-2 show" >
+                        <a class="nav-link src-icon" href="#">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                        <ul class="dropdown-menu show">
+                            <li> <input class="form-control" type="search" placeholder="Search" ></li>
+                        </ul>
+                    </div>
+                    
+                </form>
+      <div class="nav-item">
+                   <a href="./index.html"> <i class="nav-link fa-solid fa-cart-shopping ms-2 "></i></a>
+      </div>
+        </div>
+    </div>
+</nav>
+<!-- nav section end -->
+<!-- banner section start -->
+<section class="contant mt-5 py-5">
+<figure class="position-relative mb-0 h-50">
+           
+    <figcaption class="mt-5">
+        <h2 class="position-absolute d-flex flex-column align-items-center text-white translate-middle top-50 start-50 container">
+           Cart List
+        </h2>
+    </figcaption>
+  </figure>
+</section>
+<!-- banner section end -->
+
+
+<!--product section start-->
+<section class="product-cart mt-5">
+  <div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Product</th>
+          <th scope="col">Price</th>
+          <th scope="col">Quantity</th>
+          <th class="text-end" scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row">
+            <div class="cap d-flex align-items-center">
+              <img src="IMAGE/cap.jpg" width="153px" height="148px">
+              <p class="ms-5">Minimalisctic shop for multipurpose use</p>
+            </div>
+          </td>
+          <td>
+            <h5 class="">$360.00</h5>
+          </td>
+          <td>
+            <div class="product-count">
+              <span class="minus"><i class="fa-solid fa-minus"></i></span>
+              <input type="text" class="text" value="1">
+              <span class="plus"><i class="fa-solid fa-plus"></i></span>
+            </div>
+          </td>
+          <td class="text-end">$720.00</td>
+        </tr>
+        <tr>
+          <td scope="row">
+          <div class="cap d-flex align-items-center">
+            <img src="IMAGE/arrivel_2.png" width="153px" height="148px">
+            <p class="ms-5">Minimalisctic shop for multipurpose use</p>
+          </div>
+        </td>
+        <td>
+          <h5 class="">$360.00</h5>
+        </td>
+        <td>
+          <div class="product-count">
+            <span class="minus"><i class="fa-solid fa-minus"></i></span>
+            <input type="text" class="text" value="1">
+            <span class="plus"><i class="fa-solid fa-plus"></i></span>
+          </div>
+        </td>
+        <td class="text-end">$720.00</td>
+      </tr>
+      <tr>
+        <td>
+          <a href="#" class="button1">Update Cart</a>
+        </td>
+        <td></td>
+        <td></td>
+        <td class="text-end"> <a href="#" class="button2">Close Coupon</a></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>
+          <h5 class="sub">Subtotal</h5>
+        </td>
+        <td class="text-end">
+          <h5>$2160.00</h5>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td class="shipping-title">
+          <h5 class="">Shipping</h5>
+        </td>
+        <td class="text-end">
+          <div class="shipping">
+            <ul>
+              <li>Flate rate$5.00<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></li>
+              <li>Free shipping<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></li>
+              <li>Flate rate$10<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></li>
+              <li>Local delivery2.00<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></li>
+            </ul>
+            <h6>Calculate shipping<i class="fa-solid fa-caret-down"></i></h6>
+            
+            <div class="address">
+                <div class="country">
+                  <select class="form-select bg-secondary bg-opacity-10 border-0" aria-label="Default select example">
+                    <option selected>Select Country</option>
+                    <option value="1">Bangladesh</option>
+                    <option value="2">India</option>
+                    <option value="3">Pakistan</option>
+                  </select>
+                    
+                </div>
+                <div class="state mx-9 my-2">
+                  <select class="form-select bg-secondary bg-opacity-10 border-0" aria-label="Default select example">
+                    <option selected>Select state</option>
+                    <option value="1">State 1</option>
+                    <option value="2">State 2</option>
+                    <option value="3">State 3</option>
+                  </select>
+                    
+                </div>
+                <div class="post-code">
+                  <input type="text" class="form-control bg-secondary bg-opacity-10 border-0" id="exampleFormControlInput1" placeholder="postcode/zipcode">
+                  <a href="#" class="button mt-3">Update Details</a>
+                </div>
+              </div>
+            </div>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+    <div class="footer-button float-end">
+      <a href="#" class="footer1">Continue shopping</a>
+      <a href="#" class="footer1">Proceed to checkout</a>
+    </div>
+  </div>
+</section>
+
+<!-- product section end -->
+<!-- footer start -->
+<section class="footer-part clear-both ">
+  <div class="container">
+      <div class="footer-inner row justify-content-between align-items-centers w-100">
+          <div class="col-9">
+              <div class="footer-menu d-flex align-items-center">
+                  <div class="logo">
+                      <a href="./../Home/Index.html">
+                          <img src="IMAGE/logo .png" class="" alt="...">
+                      </a>
+                  </div>
+                 
+                  <div class="menu-item">
+                      <a class="" aria-current="page" href="./../Home/Index.html">Home</a>                 
+                      <a class="" href="./../About/Index.html">About</a>                 
+                      <a class="" href="./../Product_LIst/index.html">Products</a>
+                      <a class="active" href="./../Confirmation/index.html">Pages</a>                 
+                      <a class="" href="./../Blog/index.html">Blog</a>                 
+                      <a class="" href="./../Contact/index.html">Contact</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-3">
+              <div class="social-icon">
+                  <a href="https://www.facebook.com/login/" target="_blank"> 
+                      <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="https://www.instagram.com/accounts/login/" target="_blank">
+                      <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://support.google.com/" target="_blank">
+                      <i class="fa-brands fa-google-plus-g"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/login/" target="_blank">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="copyright-part">
+      <div class="container">
+          <div class="row justify-content-between align-items-center">
+              <div class="col-8">
+                  <p>
+                      Copyright ©2023 All rights reserved | This template is made with <i class="fa-regular fa-heart"></i> by
+                      <a href="#">Colorlib</a>
+                  </p>
+              </div>
+              <div class="col-4 link">
+                  <a href="#">Turms & Conditions</a> 
+                  <a href="#">FAQ</a>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+</section>
+
+<!-- footer end -->
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>  

@@ -1,0 +1,60 @@
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+
+
+
+/* footer start */
+.card{
+    height: 200px;
+    width: 100%;
+    padding-top: 30px;
+}
+.card-img, .card-img-bottom, .card-img-top{
+    width: 170px;
+}
+
+.collapse a{
+    color: #4a3049;
+}
+.collapse a:hover{
+   color:  #E4D3DF; 
+    opacity: 1;
+    transition: all .5s;
+}
+.collapse .nav-link{
+    border: 2px solid transparent;
+}
+
+.d-flex i{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-left: 7px;
+    padding-top: 15px;
+    background-color: #4a3049;
+    color: white;
+}
+
+.d-flex i:hover{
+    opacity: 1;
+    background-color: white;
+    color: #4a3049;
+    transition: ease .5s;
+}
+.fn{
+    color: #795376;
+    font-size: 15px;
+}
+
+.cs{
+    color: #3e273e;
+}
+
+.ms{
+    margin-left: 350px;
+    color: #4B3049;
+    font-size: 14px;
+}
+/* footer end */
+
+
